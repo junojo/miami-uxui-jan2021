@@ -8,14 +8,25 @@
     <meta name="keywords" content="UXUI, Ironhack, Design Principles">
     <meta name="author" content="Juno Jo">
     <title>Juno's Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style type="text/css">
+        /* div {
+            border: 1px red solid;
+        } */
+    </style>
 </head>
 
 
 <body>
     <!-- Header - start -->
     <header>
-        <img src="" alt="Juno's Logo"> logo
-        search
+        <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg" alt="Juno's Logo">
+
+        <form action="#">
+            <input type="search"> 
+            <input type="submit" value="Find">
+        </form>
+        
         <nav>
             About
             Products
@@ -26,7 +37,7 @@
     <!-- Header - end -->
 
     <!-- Hero - start -->
-    <section>
+    <section id="hero">
         <h1>Heading 1</h1>
         <h3>Heading 3</h3>
         Call to Action
@@ -36,31 +47,31 @@
     <!-- Articles Cards - start  -->
     <section>
         <!-- Card 1 - start -->
-        <div>
-            <img src="" alt="">
+        <div class="card">
+            <img src="img/jon-tyson-pEGyLHAPfVw-unsplash.jpg" alt="" class="img-card">
             <h3>heading 3</h3>
             <p>paragraph</p>
-            <img src="" alt="avatar">
+            <img src="img/avatar_02.png" alt="avatar">
             <p>author name</p>
         </div>
         <!-- Card 1 - end -->
 
         <!-- Card 2 - start -->
-        <div>
-            <img src="" alt="">
+        <div class="card">
+            <img src="img/mike-kenneally-TD4DBagg2wE-unsplash.jpg" alt="" class="img-card">
             <h3>heading 3</h3>
             <p>paragraph</p>
-            <img src="" alt="avatar">
+            <img src="img/avatar_04.png" alt="avatar">
             <p>author name</p>
         </div>
         <!-- Card 2 - end -->
 
         <!-- Card 3 - start -->
-        <div>
-            <img src="" alt="">
+        <div class="card">
+            <img src="img/nathan-dumlao-zUNs99PGDg0-unsplash.jpg" alt="" class="img-card">
             <h3>heading 3</h3>
             <p>paragraph</p>
-            <img src="" alt="avatar">
+            <img src="img/avatar_07.png" alt="avatar">
             <p>author name</p>
         </div>
         <!-- Card 3 - end -->
@@ -79,7 +90,7 @@
     <section>
         <!-- Feature 1 - start -->
         <div>
-            <img src="" alt="">
+            <img src="img/clay-banks-_wkd7XBRfU4-unsplash.jpg" alt="" class="img-feat">
             <h2>title</h2>
             <p>description</p>    
         </div>
@@ -87,7 +98,7 @@
 
         <!-- Feature 2 - start -->
         <div>
-            <img src="" alt="">
+            <img src="img/jon-tyson-pEGyLHAPfVw-unsplash.jpg" alt="" class="img-feat">
             <h2>title</h2>
             <p>description</p>
         </div>
@@ -95,7 +106,7 @@
 
         <!-- Feature 3 - start -->
         <div>
-            <img src="" alt="">
+            <img src="img/nathan-dumlao-zUNs99PGDg0-unsplash.jpg" alt="" class="img-feat">
             <h2>title</h2>
             <p>description</p>
         </div>
@@ -110,10 +121,24 @@
             <p>Address</p>
         </div>
         <div>
-            name
-            email
-            message
-            button
+            <form action="#">
+                <label for="name">Name</label><br>
+                <input id="name" type="text" placeholder="Jade McVay">
+                
+                <br><br>
+
+                <label for="email">Email</label><br>
+                <input id="email" type="email" placeholder="jade@gmail.com">
+
+                <br><br>
+
+                <label for="message">Message</label><br>
+                <textarea id="message" rows="6" cols="50" placeholder="Write a message to me"></textarea>
+
+                <br><br>
+
+                <input type="submit" value="Send Message">
+            </form>
         </div>
     </section>
     <!-- Contact - end -->

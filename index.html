@@ -46,9 +46,13 @@
 
     <!-- Hero - start -->
     <section id="hero">
-        <h1>Heading 1</h1>
-        <h3>Heading 3</h3>
-        <a href="#" class="cta-button"><i class="ri-shopping-cart-2-fill ri-lg"></i> Call to Action</a>
+        <div>
+            <h1>Heading 1</h1>
+            <h3>Heading 3</h3>
+        </div>
+        <div>
+            <a href="#" class="cta-button"><i class="ri-shopping-cart-2-fill ri-lg"></i> Call to Action</a>
+        </div>
     </section>
     <!-- Hero - end -->
 
@@ -94,43 +98,52 @@
 
     <!-- Video - start -->
     <section id="video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/N9zCCHZO1ag?start=266" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <!-- <video>
-            <source src="" type="video/mp4">
-        </video> -->
+       <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/N9zCCHZO1ag?start=266" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+         <video>
+            <source src="https://www.dropbox.com/s/1mtzsfie3fhggt3/universo-paralelo.mp4?dl=0" type="video/mp4">
+        </video>
     </section>
+    
+
+   
     <!-- Video - end -->
 
     <!-- Features - start -->
-    <section>
+    <section id="features">
         <!-- Feature 1 - start -->
-        <div>
-            <img src="img/clay-banks-_wkd7XBRfU4-unsplash.jpg" alt="" class="img-feat">
-            <h2>title</h2>
-            <p>description</p>    
+        <div class="container">
+            <img src="img/clay-banks-_wkd7XBRfU4-unsplash.jpg" alt="" class="img-feat feat-item">
+            <div class="feat-item">
+                <h2>title</h2>
+                <p>description</p>    
+            </div>
         </div>
         <!-- Feature 1 - end -->
 
         <!-- Feature 2 - start -->
-        <div>
+        <div class="container">
             <img src="img/jon-tyson-pEGyLHAPfVw-unsplash.jpg" alt="" class="img-feat">
-            <h2>title</h2>
-            <p>description</p>
+            <div>
+                <h2>title</h2>
+                <p>description</p>
+            </div>
         </div>
         <!-- Feature 2 - end -->
 
         <!-- Feature 3 - start -->
-        <div>
+        <div class="container">
             <img src="img/nathan-dumlao-zUNs99PGDg0-unsplash.jpg" alt="" class="img-feat">
-            <h2>title</h2>
-            <p>description</p>
+            <div>
+                <h2>title</h2>
+                <p>description</p>
+            </div>
         </div>
         <!-- Feature 3 - end -->
     </section>
     <!-- Features - end -->
 
     <!-- Contact - start -->
-    <section id="contact">
+    <section id="contact" class="container">
         <div>
             <h3>Contact Us</h3>
             <p>Address</p>
@@ -159,23 +172,24 @@
     <!-- Contact - end -->
 
     <!-- Footer - start -->
-    <footer>
+    <footer class="container">
         <!-- Menu - start -->
         <div>
-            <a href="#">About Us</a>
-            <a href="#">Products</a>
+            <a href="#">About Us</a><br>
+            <a href="#">Products</a><br>
             <a href="#">Testimonials</a>
         </div>
         <!-- Menu - end -->
 
         <!-- Social Media - start -->
         <div>
-        <h4>Social Media</h4>
-        <div class="icons">
-            <a href="https://www.facebook.com/juno" target="_blank"><i class="ri-facebook-box-line"></i></a>
-            <a href="https://www.instagra.com/junojo" target="_blank"><i class="ri-instagram-line"></i></a>
-            <a href="https://www.twitter.com/juno" target="_blank"><i class="ri-twitter-line"></i></a>
-            <a href="https://www.medium.com" target="_blank"><i class="ri-medium-line"></i></a>
+            <h4>Social Media</h4>
+            <div class="icons">
+                <a href="https://www.facebook.com/juno" target="_blank"><i class="ri-facebook-box-line"></i></a>
+                <a href="https://www.instagra.com/junojo" target="_blank"><i class="ri-instagram-line"></i></a>
+                <a href="https://www.twitter.com/juno" target="_blank"><i class="ri-twitter-line"></i></a>
+                <a href="https://www.medium.com" target="_blank"><i class="ri-medium-line"></i></a>
+            </div>
         </div>
         <!-- Social Media - end -->
     </footer>

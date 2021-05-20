@@ -1,17 +1,13 @@
-
 * {
-    font-family: 'Exo 2', sans-serif;
+    font-family: ‘Exo 2’, sans-serif;
 }
-
 body {
     margin: 0;
 }
-
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Krona One', sans-serif;
+    font-family: ‘Krona One’, sans-serif;
     margin: 10px 0;
 }
-
 h1 {
     font-size: 4.209rem;
 }
@@ -30,43 +26,28 @@ h5 {
 h6 {
     font-size: 1.25rem;
 }
-
-
-
 p {
-   color: #333; 
+    color: #333;
 }
-
-
 div {
     border: 1px #333 solid;
 }
-
 section {
     background-color: lightgray;
     padding: 80px 40px;
-
 }
-
 header {
     justify-content: space-around;
     align-items: center;
     padding: 36px;
 }
-
 footer {
     justify-content: space-evenly;
     padding: 40px;
 }
-
 img {
     /* width: 100%; */
 }
-
-video {
-    width: 100%;
-}
-
 /* LINKS */
 a:link, a:visited {
     text-decoration: none;
@@ -74,26 +55,24 @@ a:link, a:visited {
     padding: 10px;
 }
 a:hover {
-    color:midnightblue;
+    color: midnightblue;
 }
 a:active {
-    color:olive;
+    color: olive;
 }
-
 /* CTA Button */
 a.cta-button:link, a.cta-button:visited {
     background-color: orangered;
     border-radius: 8px;
-    color:whitesmoke;
+    color: whitesmoke;
     padding: 16px 24px;
 }
 a.cta-button:hover {
     background-color: tomato;
 }
 a.cta-button:active {
-    background-color:darkred;
+    background-color: darkred;
 }
-
 /* CV Download Button */
 a.cv-button:link, a.cv-button:visited {
     background-color: orangered;
@@ -107,88 +86,49 @@ a.cv-button:hover {
 a.cv-button:active {
     background-color:darkred;
 }
-
-
 .card {
     width: 250px;
 }
-
-.img-holder {
-    position: relative;
-    height: 180px;
-    width: 100%;
-    overflow: hidden;  /* this crops the image */
-}
-
 .img-card {
-    position: absolute;
-    right: 0;
-    bottom: 0;
     width: 100%;
 }
-
 .img-feat {
     width: 80px;
     height: 80px;
     border-radius: 50px;
-    margin: 20px;
 }
-
 .icons {
     font-size: 24px;
 }
-
-.container {
+.container{
     display: flex;
 }
-
 .author-card {
     align-items: center;
 }
-
 .author-photo {
     width: 40px;
     height: 40px;
     margin-right: 8px;
 }
-
-.feat-item {
-    flex-grow: 1;
+.feat-card {
 }
-
-a.btn-rocio {
-    font-family: 'Poppins', sans-serif;
-    color: #131045;
-    background-color: white;
-    border: 3px solid #131045;
-    padding: 10px 20px;
-    box-shadow: 4px 4px 0 #131045;
-    border-radius: 100px;
-}
-
 #hero {
-    background-image: url('../img/fahmi-fakhrudin-nzyzAUsbV0M-unsplash.jpg');
+    background-image: url(‘../img/EZ2A5746.jpg’);
     background-size: cover;
     height: 30vh;
     text-align: center;
 }
-
 #hero div {
     padding: 20px;
 }
 /* #hero div h3 {
     background-color: yellow;
 } */
-
 #articles {
     justify-content: space-between;
 }
-
 #contact {
     justify-content: space-around;
     background-color: wheat;
-}
-
-#video {
-    padding: 0;
 }

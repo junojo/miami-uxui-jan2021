@@ -79,26 +79,30 @@ input {
 
 input:focus {
     background-color: lightyellow;
-    border: none;
+    outline: 0;
 }
 
 input[type=text] {
+    box-sizing: border-box;
+    width: 80%;
     background-image: url('../icons/user-line.png');
     background-repeat: no-repeat;
     background-position: 8px;
     padding-left: 40px;
-    width: 77%;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06)
 }
 
 input[type=email] {
+    box-sizing: border-box;
+    width: 80%;
     background-image: url('../icons/mail-line.png');
     background-repeat: no-repeat;
     background-position: 8px;
-    padding-left: 40px;
-    width: 77%;
+    padding-left: 40px; 
 }
 
 textarea {
+    box-sizing: border-box;
     width: 80%;
     height: 150px;
     padding: 16px 24px;
@@ -106,6 +110,11 @@ textarea {
     border-radius: 5px;
     border: 1px solid grey;
     resize: none;
+}
+
+textarea:focus {
+    outline: 0;
+    background-color:lightyellow;
 }
 
 input[type=submit] {
@@ -117,7 +126,7 @@ input[type=submit] {
 }
 
 #btn-form {
-    width: 90%;
+    width: 80%;
 }
 
 

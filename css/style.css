@@ -4,7 +4,8 @@
 }
 
 body {
-    margin: 0;
+    margin: 0 auto;
+    max-width: 960px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -14,6 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size: 4.209rem;
+    color: yellow;
 }
 h2 {
     font-size: 3.052rem;
@@ -115,6 +117,13 @@ textarea {
 textarea:focus {
     outline: 0;
     background-color:lightyellow;
+}
+
+select {
+    width: 80%;
+    padding: 16px 24px;
+    margin: 8px 0;
+    border-radius: 5px;
 }
 
 input[type=submit] {
@@ -263,4 +272,28 @@ a.btn-rocio {
 
 #video {
     padding: 0;
+}
+
+
+/* ------------------------------- */
+/* ------------------------------- */
+/* ------------------------------- */
+/* TABLET */
+@media only screen and (min-width: 680px) and (max-width: 767px) {
+    h1 {
+       color:darkviolet; 
+       font-size: 3.5em;
+    } 
+}
+
+
+/* ------------------------------- */
+/* ------------------------------- */
+/* ------------------------------- */
+/* MOBILE */
+@media only screen and (max-width: 679px) {
+    h1 {
+        color:khaki;
+        font-size: 2.8rem;
+    }
 }

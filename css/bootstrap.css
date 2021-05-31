@@ -1,0 +1,10 @@
+
+.btn-primary {
+    font-family: 'Poppins', sans-serif;
+    color: #131045;
+    background-color: white;
+    border: 3px solid #131045;
+    padding: 10px 20px;
+    box-shadow: 4px 4px 0 #131045;
+    border-radius: 100px;
+}
